@@ -1,0 +1,13 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* theme dark/light css */
+body[page-theme="dark"] {
+    background-color: #121212;
+    color: #ffffff;
+}
+body[page-theme="light"] {
+    background-color: #ffffff;
+    color: #222222;
+}

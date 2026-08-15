@@ -1,0 +1,85 @@
+.about-section {
+  padding:50px 20px;
+  background: #f8f9fa;
+}
+.about-container {
+  max-width: 1100px;
+  margin: auto;
+}
+.about-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about-heading h2 {
+  font-size: 38px;
+  color: #212529;
+  margin: 0;
+}
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+.about-text {
+  flex: 1;
+}
+.about-text h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #212529;
+}
+.about-text p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+.about-info {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+  border-left: 4px solid #0d6efd;
+}
+.info-box h4 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #212529;
+}
+.info-box p {
+  margin: 5px 0;
+  color: #555;
+}
+
+
+/* About Theme CSS */
+.about-section {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+body[page-theme="dark"] .about-section {
+    background-color: #121212;
+    color: #ffffff;
+    border-bottom: 1px solid #2a2a2a;
+}
+body[page-theme="dark"] .about-heading h2,
+body[page-theme="dark"] .about-text h3 {
+    color: #ffffff;
+}
+body[page-theme="dark"] .about-text p,
+body[page-theme="dark"] .info-box p {
+    color: #cfcfcf;
+}
+body[page-theme="dark"] .info-box {
+    background-color: #1e1e1e;
+    border-color: #2a2a2a;
+    color: #ffffff;
+}
+body[page-theme="dark"] .info-box h4 {
+    color: #ffffff;
+}
