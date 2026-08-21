@@ -1,16 +1,99 @@
-# React + Vite
+# Savan — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal portfolio website showcasing my skills, projects, education, and experience as a Full Stack MERN Developer.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Portfolio:** https://savan-gupta-portfolio.netlify.app/
 
-## React Compiler
+## 📌 About the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio website is designed to showcase my web development skills, technical expertise, and projects built using modern web technologies.
 
-## Expanding the ESLint configuration
+The website features a responsive design with a clean and user-friendly interface, along with dark/light theme support and a downloadable resume.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* Responsive design for desktop, tablet, and mobile devices
+* Home, About, Skills, Projects, Education, Experience, and Contact sections
+* Dark/Light theme toggle
+* Downloadable resume
+* Project showcase with live project links
+* GitHub and LinkedIn profile links
+* Responsive navigation
+* Contact section
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* React.js
+* Responsive Web Design
+* Git & GitHub
+
+## 📂 Project Structure
+
+```text
+portfolio/
+├── public/
+│   ├── images/
+│   │   └── ...
+│   ├── SavanGupta_Resume.pdf
+│   └── portfolio.png
+├── src/
+│   ├── assets/
+│   │   └── css/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## ⚙️ Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/savan-prog/portfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will run at:
+
+```text
+http://localhost:5173/
+```
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+## 👨‍💻 Author
+
+**Savan**
+
+* LinkedIn: https://www.linkedin.com/in/savan-gupta-3a5424317/
+* GitHub: https://github.com/savan-prog
+* Portfolio: https://savan-gupta-portfolio.netlify.app/
