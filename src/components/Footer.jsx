@@ -24,11 +24,19 @@ const Footer = () => {
         <div className="footer-social">
           <h4>Connect With Me</h4>
 
-          <a href="YOUR_GITHUB_LINK" target="_blank">
+          <a
+            href="https://github.com/savan-prog"
+            target="_blank"
+            rel="noreferrer"
+          >
             GitHub
           </a>
 
-          <a href="YOUR_LINKEDIN_LINK" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/savan-gupta-3a5424317/"
+            target="_blank"
+            rel="noreferrer"
+          >
             LinkedIn
           </a>
 

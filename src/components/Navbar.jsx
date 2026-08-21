@@ -24,7 +24,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </div>
         <div className="navbar-actions">
-           <a href="/resume.pdf" className="resume-btn">
+           <a href="/SavanGupta_Resume.pdf" className="resume-btn" download>
             <i className="fa-solid fa-download"></i> Resume
           </a>
 

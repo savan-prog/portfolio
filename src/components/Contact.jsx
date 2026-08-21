@@ -73,12 +73,26 @@ const Contact = () => {
 
             <div className="contact-item">
               <i className="fa-brands fa-github"></i>
-              <span>GitHub</span>
+              <a
+                href="https://github.com/savan-prog"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
             </div>
 
             <div className="contact-item">
               <i className="fa-brands fa-linkedin"></i>
-              <span>LinkedIn</span>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/savan-gupta-3a5424317/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </span>
             </div>
           </div>
 

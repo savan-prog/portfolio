@@ -14,7 +14,10 @@ const Projects = () => {
           {/* MERN E-commerce */}
           <div className="project-card">
             <div className="project-image">
-              <img src="/images/e-commerce-project-image.png" alt="MERN E-commerce App" />
+              <img
+                src="/images/e-commerce-project-image.png"
+                alt="MERN E-commerce App"
+              />
             </div>
 
             <div className="project-content">
@@ -35,11 +38,19 @@ const Projects = () => {
               </div>
 
               <div className="project-buttons">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href="https://savan-mern-ecommerce.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
 
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/savan-prog/ecommerce-store"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   GitHub
                 </a>
               </div>
@@ -68,11 +79,19 @@ const Projects = () => {
               </div>
 
               <div className="project-buttons">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href="https://e-book-admin-dashboard.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
 
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/savan-prog/ebook-admin-dashboard"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   GitHub
                 </a>
               </div>
@@ -104,11 +123,19 @@ const Projects = () => {
               </div>
 
               <div className="project-buttons">
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href="https://savan-react-crud.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
 
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/savan-prog/react-crud-app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   GitHub
                 </a>
               </div>

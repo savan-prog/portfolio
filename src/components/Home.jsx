@@ -18,16 +18,24 @@ const Home = () => {
               View Projects
             </a>
 
-            <a href="/resume.pdf" download className="resume-home-btn">
+            <a href="/SavanGupta_Resume.pdf" className="resume-home-btn" download>
               <i className="fa-solid fa-download"></i> Download Resume
             </a>
           </div>
           <div className="social-links">
-            <a href="#" target="_blank">
+            <a
+              href="https://github.com/savan-prog"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa-brands fa-github"></i>
             </a>
 
-            <a href="#" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/savan-gupta-3a5424317/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa-brands fa-linkedin"></i>
             </a>
           </div>
